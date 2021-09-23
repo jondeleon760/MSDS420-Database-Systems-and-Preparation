@@ -2,7 +2,7 @@ SQL commands for the famous SaleCo data warehouse
 
 ______________________________________________________________________________________
 
-1.Write and execute the SQL command to list the total sales by region and customer. Your output shoudl be sorted by region and customer
+1.Write and execute the SQL command to list the total sales by region and customer. Your output should be sorted by region and customer
 
 
 SELECT REG_ID, S.CUS_CODE, SUM(SALE_UNITS*SALE_PRICE) AS TOTSALES
